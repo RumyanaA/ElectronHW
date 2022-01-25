@@ -1,0 +1,30 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "\"electron homework\"",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RumyanaA/ElectronHW.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RumyanaA/ElectronHW/issues"
+  },
+  "homepage": "https://github.com/RumyanaA/ElectronHW#readme",
+  "devDependencies": {
+    "electron": "^16.0.7",
+    "prettier": "2.5.1"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "node-fetch": "^3.2.0",
+    "nodemailer": "^6.7.2",
+    "winston": "^3.4.0"
+  }
+}
